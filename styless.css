@@ -1,0 +1,44 @@
+
+.container-fluid {
+    background: rgb(13,12,12);
+    background: radial-gradient(circle, rgba(13,12,12,1) 0%, rgba(76,236,167,1) 35%);
+}
+
+.container-fluid-fondo {
+  
+    
+    background-image: url(https://phonoteka.org/uploads/posts/2021-03/thumbs/1616681245_2-p-fon-dlya-geimera-2.jpg) ;
+    background-size:  350px;
+}
+.card {
+
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.88);
+   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.88);
+   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.88)
+}
+.card-img-top {
+    width: 100%;
+    height: 300px;
+    border-radius: 5%;
+    border: 3px solid rgb(224, 14, 14);
+    
+}
+
+.boxFooter a i {
+    font-size: 35px;
+    color: white;
+    margin: 10px;
+    
+}
+.textFooter {
+    font-size: 20px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px;
+    background-color:#1E90FF;
+    color: white;
+} 
